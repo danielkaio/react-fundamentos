@@ -11,6 +11,8 @@ import UsuarioInfo from './Components/basicos/Usuario.info'
 import DiretaPai from './Components/comunicacao/DiretaPai'
 import IndiretaPai from './Components/comunicacao/IndiretaPai'
 import Input from './Components/formulario/Input'
+import Contador from './Components/contador/Contador'
+
 
 
 import "./App.css"
@@ -76,6 +78,13 @@ const App = () => {
 
                 <Card titulo=" componente controlado" color="red">
                     <Input></Input>
+                </Card>
+
+
+                <Card titulo=" componente basiado em classe" color="green">
+                    <Contador>
+                       
+                    </Contador>
                 </Card>
 
 
